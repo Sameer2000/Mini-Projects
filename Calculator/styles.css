@@ -1,0 +1,43 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+}
+
+#container {
+    height: 60vh;
+    width: 25vw;
+    min-width: 170px;
+    min-height: 350px;
+    margin: 10% auto;
+    background-color: rgb(231, 231, 231);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#display-container {
+    height: 20%;
+    width: 24.4vw;
+    border: 1px solid rgb(231, 231, 231);
+    text-align: right;
+    padding: 0 2px;
+}
+
+#buttons-container {
+    width: 100%;
+    height: 80%;
+}
+
+td {
+    width: 6vw;
+    height: 8.8vh;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+td:hover {
+    background-color: rgb(156, 242, 213);
+}
+
+.operators {
+    background-color: rgb(246, 246, 246);
+}
